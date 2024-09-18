@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+#cityInput {
+    padding: 8px;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+    background-color: lightgreen;
+    transition: 0.9s;
+    border-radius: 20%;
+    border: none;
+}
+button:hover{
+    background-color: darkgreen;
+    color: white;
+}
+
+#weatherInfo {
+    margin-top: 20px;
+}
